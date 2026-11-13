@@ -43,5 +43,6 @@ Step 5: To test the responsive layout, press F12 in Chrome or Edge and use
 Step 6: To test the form validation, open the Membership page and try to
         submit the form while it is empty.
 
-The website was tested in Google Chrome and Microsoft Edge on both desktop
-and mobile viewports.
+The website was thoroughly tested using Microsoft Edge (primary browser) and
+Google Chrome (secondary browser) across both desktop (1440px) and mobile
+(375px) viewports.
