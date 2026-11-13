@@ -1,4 +1,4 @@
-ICS 2302: WEB APPLICATION DEVELOPMENT I - PROJECT README
+ICS 2303: WEB APPLICATION DEVELOPMENT I - PROJECT README
 ==========================================================
 
 a) Student Name
@@ -8,7 +8,7 @@ b) Registration Number
 SCT221-D1-0168/2026
 
 c) Course
-ICS 2302 - Web Application Development I
+ICS 2303 - Web Application Development I
 Jomo Kenyatta University of Agriculture and Technology (JKUAT)
 Academic Year: 2026
 
@@ -36,7 +36,7 @@ Step 1: Extract the ZIP file.
 Step 2: Open the folder SCT221-D1-0168_2026_WebApplicationDevelopmentProject.
 Step 3: Double-click index.html (it opens in your default browser). You can
         also right-click the file and choose "Open with" Google Chrome,
-        Microsoft Edge or Mozilla Firefox.
+        Microsoft Edge since they are the one i used to test and preview the website.
 Step 4: Use the navigation menu at the top to move between the six pages.
 Step 5: To test the responsive layout, press F12 in Chrome or Edge and use
         the device toolbar (Ctrl+Shift+M) to switch to a mobile viewport.
