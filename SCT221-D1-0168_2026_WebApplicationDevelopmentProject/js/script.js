@@ -3,13 +3,15 @@ var navMenu = document.getElementById('navMenu');
 
 if (navToggle && navMenu) {
     navToggle.addEventListener('click', function () {
-        navMenu.classList.toggle('active');
+        var isOpen = navMenu.classList.toggle('active');
+        navToggle.setAttribute('aria-expanded', isOpen);
     });
 
     var navLinks = navMenu.getElementsByTagName('a');
     for (var i = 0; i < navLinks.length; i++) {
         navLinks[i].addEventListener('click', function () {
             navMenu.classList.remove('active');
+            navToggle.setAttribute('aria-expanded', 'false');
         });
     }
 }

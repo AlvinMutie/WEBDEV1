@@ -60,10 +60,26 @@ li {
 
 a {
     color: #17505c;
+    transition: color 0.15s ease;
 }
 
 a:hover {
     color: #0d7a8c;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 3px solid #0d7a8c;
+    outline-offset: 2px;
+}
+
+.site-header a:focus-visible,
+.site-header button:focus-visible,
+.site-footer a:focus-visible,
+.hero-section a:focus-visible {
+    outline-color: #ffffff;
 }
 
 img {
@@ -112,6 +128,7 @@ img {
     text-decoration: none;
     padding: 8px 14px;
     font-size: 15px;
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .nav-menu li a:hover {
@@ -187,6 +204,7 @@ img {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
 .btn-primary {
@@ -238,14 +256,12 @@ img {
 
 .card {
     background-color: #fafafa;
-    border: 1px solid #cccccc;
-    border-top: 4px solid #17505c;
     padding: 18px;
+    transition: background-color 0.2s ease;
 }
 
 .card:hover {
     background-color: #edf4f5;
-    border-color: #23697a;
 }
 
 .card h3,
@@ -396,7 +412,6 @@ img {
 }
 
 .form-control:focus {
-    outline: none;
     border-color: #17505c;
 }
 
