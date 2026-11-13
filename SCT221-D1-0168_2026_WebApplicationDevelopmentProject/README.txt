@@ -1,4 +1,4 @@
-ICS 2303: WEB APPLICATION DEVELOPMENT I - PROJECT README
+ICS 2203: WEB APPLICATION DEVELOPMENT I - PROJECT README
 ==========================================================
 
 a) Student Name
@@ -8,7 +8,7 @@ b) Registration Number
 SCT221-D1-0168/2026
 
 c) Course
-ICS 2303 - Web Application Development I
+ICS 2203 - Web Application Development I
 Jomo Kenyatta University of Agriculture and Technology (JKUAT)
 Academic Year: 2026
 
