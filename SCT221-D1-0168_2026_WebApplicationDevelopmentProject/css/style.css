@@ -1,10 +1,6 @@
-/* =====================================================
-   JKUAT Robotics Club Website - Main Stylesheet
+/* JKUAT Robotics Club Website - Main Stylesheet
    Author: Alvin Mutie Kyalo (SCT221-D1-0168/2026)
-   Course: ICS 2302 - Web Application Development I
-   ===================================================== */
-
-/* ---- General page settings ---- */
+   Course: ICS 2302 - Web Application Development I */
 * {
     margin: 0;
     padding: 0;
@@ -26,22 +22,38 @@ body {
     padding: 20px 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #17505c;
     margin-bottom: 10px;
 }
 
-h1 { font-size: 28px; }
-h2 { font-size: 24px; margin-top: 25px; }
-h3 { font-size: 20px; }
-h4 { font-size: 17px; }
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 17px;
+}
 
 p {
     margin-bottom: 12px;
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0 0 15px 25px;
 }
 
@@ -239,7 +251,8 @@ img {
     border-color: #23697a;
 }
 
-.card h3, .card h4 {
+.card h3,
+.card h4 {
     margin-top: 5px;
 }
 
@@ -256,7 +269,8 @@ img {
     margin: 20px 0;
 }
 
-.info-banner h3, .info-banner h4 {
+.info-banner h3,
+.info-banner h4 {
     margin-top: 0;
 }
 
@@ -272,7 +286,8 @@ img {
     background-color: #ffffff;
 }
 
-.styled-table th, .styled-table td {
+.styled-table th,
+.styled-table td {
     border: 1px solid #cccccc;
     padding: 10px 14px;
     text-align: left;
@@ -492,7 +507,8 @@ fieldset.form-fieldset legend {
     min-width: 220px;
 }
 
-.footer-section h3, .footer-section h4 {
+.footer-section h3,
+.footer-section h4 {
     color: #ffffff;
     margin-bottom: 8px;
 }
@@ -563,7 +579,15 @@ fieldset.form-fieldset legend {
         text-align: center;
     }
 
-    h1 { font-size: 24px; }
-    h2 { font-size: 21px; }
-    .hero-section h2 { font-size: 24px; }
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .hero-section h2 {
+        font-size: 24px;
+    }
 }
