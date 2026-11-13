@@ -1,10 +1,3 @@
-/* =====================================================
-   JKUAT Robotics Club Website - Main Script
-   Author: Alvin Mutie Kyalo (SCT221-D1-0168/2026)
-   Course: ICS 2302 - Web Application Development I
-   ===================================================== */
-
-// Mobile menu toggle
 var navToggle = document.getElementById('navToggle');
 var navMenu = document.getElementById('navMenu');
 
@@ -13,7 +6,6 @@ if (navToggle && navMenu) {
         navMenu.classList.toggle('active');
     });
 
-    // Close the menu after a link is clicked
     var navLinks = navMenu.getElementsByTagName('a');
     for (var i = 0; i < navLinks.length; i++) {
         navLinks[i].addEventListener('click', function () {
@@ -22,7 +14,6 @@ if (navToggle && navMenu) {
     }
 }
 
-// Membership form feedback
 var membershipForm = document.getElementById('membershipForm');
 var formAlert = document.getElementById('formAlert');
 
