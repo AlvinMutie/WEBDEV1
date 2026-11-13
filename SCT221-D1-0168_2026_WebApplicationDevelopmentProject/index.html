@@ -1,139 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | JKUAT Robotics Club</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<header class="site-header">
-    <div class="header-container">
-        <div class="logo-text">
-            <h1>JKUAT Robotics Club</h1>
-            <p class="tagline">Build. Program. Compete.</p>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo-text">
+                <h1>JKUAT Robotics Club</h1>
+                <p class="tagline">Build. Program. Compete.</p>
+            </div>
+            <nav>
+                <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About the Club</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About the Club</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    </header>
 
-<section class="hero-section">
-    <div class="container">
-        <h2>Welcome to the JKUAT Robotics Club</h2>
-        <p class="hero-subtitle">A student club for anyone interested in robots, electronics and programming.</p>
-        <p class="hero-description">
-            Whether you have never touched an Arduino board or you have already built your own
-            robot, there is a place for you here. We meet every week to design, build and test
-            robots, and we represent JKUAT at inter-university competitions.
-        </p>
-        <div class="hero-actions">
-            <a href="membership.html" class="btn btn-primary">Join the Club</a>
-            <a href="activities.html#schedule" class="btn btn-outline">View Build Sessions</a>
+    <section class="hero-section">
+        <div class="container">
+            <h2>Welcome to the JKUAT Robotics Club</h2>
+            <p class="hero-subtitle">A student club for anyone interested in robots, electronics and programming.</p>
+            <p class="hero-description">
+                Whether you have never touched an Arduino board or you have already built your own
+                robot, there is a place for you here. We meet every week to design, build and test
+                robots, and we represent JKUAT at inter-university competitions.
+            </p>
+            <div class="hero-actions">
+                <a href="membership.html" class="btn btn-primary">Join the Club</a>
+                <a href="activities.html#schedule" class="btn btn-outline">View Build Sessions</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<main>
-    <div class="container">
+    <main>
+        <div class="container">
 
-        <h2>What We Do</h2>
-        <p>
-            The club brings together students from engineering, computing and science courses
-            who want to learn robotics by actually building things. Our main activities are:
-        </p>
+            <h2>What We Do</h2>
+            <p>
+                The club brings together students from engineering, computing and science courses
+                who want to learn robotics by actually building things. Our main activities are:
+            </p>
 
-        <div class="card-grid">
+            <div class="card-grid">
 
-            <div class="card">
-                <h3>Hands-On Projects</h3>
-                <p>
-                    Members work in small teams on real builds such as line-following robots,
-                    robotic arms and obstacle-avoiding cars. All tools and components are
-                    provided in the lab.
-                </p>
-                <a href="about.html">Learn more about the club</a>
+                <div class="card">
+                    <h3>Hands-On Projects</h3>
+                    <p>
+                        Members work in small teams on real builds such as line-following robots,
+                        robotic arms and obstacle-avoiding cars. All tools and components are
+                        provided in the lab.
+                    </p>
+                    <a href="about.html">Learn more about the club</a>
+                </div>
+
+                <div class="card">
+                    <h3>Competitions</h3>
+                    <p>
+                        Every year we enter events such as the Inter-University Robotics Challenge
+                        and RoboFest Kenya. Teams are selected during the Saturday build sessions.
+                    </p>
+                    <a href="activities.html#competitions">View our events calendar</a>
+                </div>
+
+                <div class="card">
+                    <h3>Learn Together</h3>
+                    <p>
+                        Weekly workshops cover Arduino programming, sensors, motor control, CAD
+                        and 3D printing. Beginners are paired with senior members, so no previous
+                        experience is required.
+                    </p>
+                    <a href="activities.html#schedule">See the weekly timetable</a>
+                </div>
+
             </div>
 
-            <div class="card">
-                <h3>Competitions</h3>
-                <p>
-                    Every year we enter events such as the Inter-University Robotics Challenge
-                    and RoboFest Kenya. Teams are selected during the Saturday build sessions.
-                </p>
-                <a href="activities.html#competitions">View our events calendar</a>
+            <h2>Spotlight: Our Line Follower</h2>
+            <figure class="gallery-item spotlight">
+                <img src="images/line-follower.jpg" alt="The club's line-following robot on a test track">
+                <figcaption>
+                    <strong>Figure 1: Line-following robot</strong>
+                    The club's line-following robot during testing before the Inter-University
+                    Robotics Challenge.
+                </figcaption>
+            </figure>
+            <p>
+                More photos from our build sessions and competitions are available on the
+                <a href="gallery.html">gallery page</a>.
+            </p>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>JKUAT Robotics Club</h4>
+                <p>Jomo Kenyatta University of Agriculture and Technology</p>
+                <p>Juja Main Campus, Engineering Block, Mechatronics Lab</p>
+                <p>Email: <a href="mailto:robotics@jkuat.ac.ke">robotics@jkuat.ac.ke</a></p>
             </div>
-
-            <div class="card">
-                <h3>Learn Together</h3>
-                <p>
-                    Weekly workshops cover Arduino programming, sensors, motor control, CAD
-                    and 3D printing. Beginners are paired with senior members, so no previous
-                    experience is required.
-                </p>
-                <a href="activities.html#schedule">See the weekly timetable</a>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About the Club</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-
+            <div class="footer-section">
+                <h4>About This Project</h4>
+                <p>Course: ICS 2203 - Web Application Development I</p>
+                <p>Developer: Alvin Mutie Kyalo</p>
+                <p>Registration No: SCT221-D1-0168/2026</p>
+            </div>
         </div>
-
-        <h2>Spotlight: Our Line Follower</h2>
-        <figure class="gallery-item spotlight">
-            <img src="images/line-follower.jpg" alt="The club's line-following robot on a test track">
-            <figcaption>
-                <strong>Figure 1: Line-following robot</strong>
-                The club's line-following robot during testing before the Inter-University
-                Robotics Challenge.
-            </figcaption>
-        </figure>
-        <p>
-            More photos from our build sessions and competitions are available on the
-            <a href="gallery.html">gallery page</a>.
-        </p>
-
-    </div>
-</main>
-
-<footer class="site-footer">
-    <div class="footer-container">
-        <div class="footer-section">
-            <h4>JKUAT Robotics Club</h4>
-            <p>Jomo Kenyatta University of Agriculture and Technology</p>
-            <p>Juja Main Campus, Engineering Block, Mechatronics Lab</p>
-            <p>Email: <a href="mailto:robotics@jkuat.ac.ke">robotics@jkuat.ac.ke</a></p>
+        <div class="footer-bottom">
+            <p>&copy; 2026 JKUAT Robotics Club. Designed by Alvin Mutie Kyalo (SCT221-D1-0168/2026).</p>
         </div>
-        <div class="footer-section">
-            <h4>Quick Links</h4>
-            <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About the Club</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h4>About This Project</h4>
-            <p>Course: ICS 2302 - Web Application Development I</p>
-            <p>Developer: Alvin Mutie Kyalo</p>
-            <p>Registration No: SCT221-D1-0168/2026</p>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2026 JKUAT Robotics Club. Designed by Alvin Mutie Kyalo (SCT221-D1-0168/2026).</p>
-    </div>
-</footer>
+    </footer>
 
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
