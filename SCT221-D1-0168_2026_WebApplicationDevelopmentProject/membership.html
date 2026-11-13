@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | JKUAT Robotics Club</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-container">
+        <div class="logo-text">
+            <h1>JKUAT Robotics Club</h1>
+            <p class="tagline">Build. Program. Compete.</p>
+        </div>
+        <nav>
+            <button class="nav-toggle" id="navToggle">Menu</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About the Club</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="membership.html" class="active">Membership</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="page-header">
+            <h2>Become a Member</h2>
+            <p>Fill in the form below to register with the JKUAT Robotics Club.</p>
+        </div>
+
+        <div class="form-container">
+
+            <div id="formAlert" class="alert"></div>
+
+            <p>
+                Registration is free for all JKUAT students. After submitting this form,
+                the secretary will add you to the club mailing list and invite you to the
+                next orientation session.
+            </p>
+
+            <form id="membershipForm" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="fullName">Full Name <span class="required-star">*</span></label>
+                    <input type="text" id="fullName" name="fullName" class="form-control"
+                           required minlength="3">
+                </div>
+
+                <div class="form-group">
+                    <label for="regNo">Registration Number <span class="required-star">*</span></label>
+                    <input type="text" id="regNo" name="regNo" class="form-control"
+                           required>
+                    <p class="form-hint">Use your official JKUAT registration number.</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="programme">Programme of Study <span class="required-star">*</span></label>
+                    <input type="text" id="programme" name="programme" class="form-control"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required-star">*</span></label>
+                    <input type="email" id="email" name="email" class="form-control"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Telephone Number <span class="required-star">*</span></label>
+                    <input type="tel" id="phone" name="phone" class="form-control"
+                           required pattern="(\+?254|0)[17][0-9]{8}">
+                    <p class="form-hint">A Kenyan mobile number, starting with 07, 01 or +254.</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="yearOfStudy">Year of Study <span class="required-star">*</span></label>
+                    <select id="yearOfStudy" name="yearOfStudy" class="form-control" required>
+                        <option value="">-- Select your year --</option>
+                        <option value="1">Year 1</option>
+                        <option value="2">Year 2</option>
+                        <option value="3">Year 3</option>
+                        <option value="4">Year 4</option>
+                        <option value="5">Year 5</option>
+                        <option value="postgraduate">Postgraduate</option>
+                    </select>
+                </div>
+
+                <fieldset class="form-fieldset">
+                    <legend>Gender <span class="required-star">*</span></legend>
+                    <div class="choice-group">
+                        <label class="choice-label"><input type="radio" name="gender" value="male" required> Male</label>
+                        <label class="choice-label"><input type="radio" name="gender" value="female"> Female</label>
+                        <label class="choice-label"><input type="radio" name="gender" value="other"> Prefer not to say</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                    <legend>Club Interests (select at least one) <span class="required-star">*</span></legend>
+                    <div class="choice-group">
+                        <label class="choice-label"><input type="checkbox" name="interests" value="arduino"> Arduino &amp; embedded systems</label>
+                        <label class="choice-label"><input type="checkbox" name="interests" value="design"> Robot design &amp; 3D printing</label>
+                        <label class="choice-label"><input type="checkbox" name="interests" value="navigation"> Autonomous navigation</label>
+                        <label class="choice-label"><input type="checkbox" name="interests" value="competitions"> Competitions</label>
+                        <label class="choice-label"><input type="checkbox" name="interests" value="outreach"> Outreach &amp; school visits</label>
+                        <label class="choice-label"><input type="checkbox" name="interests" value="drones"> Drones &amp; electronics</label>
+                    </div>
+                    <p class="form-hint">Tick the areas you would like to take part in.</p>
+                </fieldset>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-submit">Submit Registration</button>
+                    <button type="reset" class="btn btn-reset">Reset Form</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="info-banner">
+            <h4>What Happens Next?</h4>
+            <ol>
+                <li>The secretary confirms your registration through your student email.</li>
+                <li>You are added to a beginner or project group depending on your interests.</li>
+                <li>You attend your first build session - see the <a href="activities.html#schedule">weekly timetable</a>.</li>
+            </ol>
+        </div>
+
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>JKUAT Robotics Club</h4>
+            <p>Jomo Kenyatta University of Agriculture and Technology</p>
+            <p>Juja Main Campus, Engineering Block, Mechatronics Lab</p>
+            <p>Email: <a href="mailto:robotics@jkuat.ac.ke">robotics@jkuat.ac.ke</a></p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About the Club</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>About This Project</h4>
+            <p>Course: ICS 2302 - Web Application Development I</p>
+            <p>Developer: Alvin Mutie Kyalo</p>
+            <p>Registration No: SCT221-D1-0168/2026</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 JKUAT Robotics Club. Designed by Alvin Mutie Kyalo (SCT221-D1-0168/2026).</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
